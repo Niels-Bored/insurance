@@ -16,7 +16,14 @@
     .texto{
         margin: 3% 10%;
     }
-    
+    .logo{
+        height: 10%;
+        width: 10%;
+    }
+    .centrado{
+        height: 50%;
+        width: 50%;
+    }
 }
 @media (max-width: 559px){
     .acomodo{
@@ -33,7 +40,7 @@
         font-size: 20px;
     }
     .texto{
-        margin-top: 100%;
+        margin-top: 30%;
         margin-left: 10%;
         margin-right: 10%;
     }
@@ -50,6 +57,25 @@
         position: absolute;
         left:1%;
     }
+    .centrado{
+        margin: 10% 0;
+        height: 70%;
+        width: 70%;
+    }
+    .logo{
+        position: absolute;
+        top: 15px;
+        left: 0;
+        width: 121px;
+        height: 49px;
+        
+    }
+    .navbar{
+        height: 75px !important;
+    }
+    .navbar-brand{
+        font-size: 0px !important;
+    }
 }
 .telefono{
     color: white;
@@ -64,11 +90,6 @@
 }
 .texto h1, h2, h3{
     color: forestgreen;
-}
-.texto img{
-    width: 10%;
-    height: 100px;
-    margin-left: 44%;
 }
 form{
     margin: 0 auto;
@@ -145,3 +166,4 @@ body{
 .invisible{
     display:none;
 }
+
