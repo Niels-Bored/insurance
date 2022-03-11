@@ -64,14 +64,11 @@
     }
     .logo{
         position: absolute;
-        top: 15px;
+        top: 3px;
         left: 0;
         width: 121px;
         height: 49px;
         
-    }
-    .navbar{
-        height: 75px !important;
     }
     .navbar-brand{
         font-size: 0px !important;
